@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <nav class="menu">
+        <ul class="lista">
+            <a class="enlace" href="contacto.html">
+                <li class="nombre">Contacto</li>
+            </a>
+            <a class="enlace" href="conocenos.html">
+                <li class="nombre">Conócenos</li>
+            </a>
+            <a class="enlace" href="Alumnos.html">
+                <li class="nombre">Alumnos</li>
+            </a>
+            <a class="enlace" href="home.html">
+                <li class="nombre">Home</li>
+            </a>
+
+        </ul>
+    </nav>
+    <header class="cabecera">
+        <div>
+            <div class="logo">
+                <img class="img" src="CampSite-blanco-email.png" alt="Campsite Academy">
+            </div>
+            <p class="titulocabezera">CampSite Academy</p>
+        </div>
+    </header>
+
+  
+        <h2>Contacto</h2>
+        <h3>Cualquier duda o información sobre los cursos, contáctanos!</h3>
+        <p class="text"><i class="fa-solid fa-phone"></i> 626 - 482- 244</p>
+        <p class="text"><i class="fa-solid fa-envelope"></i> hello@camp.site.academy</p>
+        <div class="contactoymapa">
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.685369850543!2d2.1808538279932!3d41.3809200129428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3000c548bd3%3A0x6da31f4c33dc02ac!2sPl.%20de%20Pau%20Vila%2C%201%2C%2008003%20Barcelona!5e0!3m2!1ses!2ses!4v1674761560234!5m2!1ses!2ses"
+             
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <!-- <h3>Si lo prefieres, rellena este formulario y nos pondremos en contacto contigo!</h3> -->
+
+            <div class="container_form">
+                <form action="" class="form">
+                  
+                    <div class="datospersonales">
+                        <label for="nombre" class="form-label"> Nombre:</label>
+                        <input type="text" class="form-input" id="nombre" />
+
+                        <label for="Apellidos" class="form-label"> Apellidos:</label>
+                        <input type="text" class="form-input" id="apellidos" />
+
+                        <label for="Edad" class="form-label">Edad:</label>
+                        <input type="text" class="form-input" id="edad" />
+
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-input" id="email" />
+
+                        <label for="fechanacimiento" class="form-label"> Fecha de nacimiento:</label>
+                        <input type="date" class="form-input" id="fechadenacimiento" />
+                    </div>
+
+                    <p>¿Tienes algún conocimiento previo?</p>
+                    <div class="conocimientos">
+                        <label for="html" class="form-label"> HTML</label>
+                        <input type="checkbox" class="form-input" id="html" />
+
+                        <label for="CSS" class="form-label"> CSS</label>
+                        <input type="checkbox" class="form-input" id="css" />
+
+                        <label for="java" class="form-label"> JavaScript</label>
+                        <input type="checkbox" class="form-input" id="java" class="check" />
+                    </div>
+
+                    <label class="text" for="curso">¿Qué curso te interesa?</label>
+                    <select name="curso" id="curso">
+                        <option value="ft">Mern FT</option>
+                        <option value="ds">Data science FT</option>
+                        <option value="angular">Angular</option>
+                        <option value="react">React</option>
+                    </select>
+                    <div>
+                        <p>Para cualquier otra consulta, escribenos un mensaje</p>
+                        <textarea name="" id="" cols="103" rows="10"></textarea>
+                        <input type="submit" class="btn_submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+</body>
+
+</html>
